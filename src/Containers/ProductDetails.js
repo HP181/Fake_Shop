@@ -37,7 +37,6 @@ const ProductDetails = () => {
 
   return (
     <>
-      {/* <h1 style={{'height':20, 'marginTop':90}}>Product Details</h1> */}
 
       <div className="ui grid container">
         {Object.keys(product).length === 0 ? (
